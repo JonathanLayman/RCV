@@ -1,0 +1,15 @@
+1. Create A GUI for RCV voting - Done
+2. Create a method to load elections - Done
+3. Create a method to determine the number of candidates - Done
+4. Create a better export method - Done
+5. Create better tracking for what happens each round - Done
+6. Use classes for tracking candidates - Done
+7. Create a demo election
+8. Make half votes optional - Check headers in CSV
+9. Add relative Save and Item files - Done
+10. Check self.file state? - Done
+11. Create a Procedures screen - Done
+12. Create an about screen - Done
+13. Create a help screen - Done
+14. Use seaborn to add graphics
+15. Use pandas to improve exports / imports

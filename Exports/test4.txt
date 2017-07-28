@@ -1,0 +1,84 @@
+----- Summary of Votes -----
+
+----- Basic Info -----
+65.0 -- Vote Count
+60 -- Single Owner Ballots
+10 -- Dual Owner Ballots
+
+----- Choice 1 -----
+14.0 -- A
+10.0 -- B
+15.5 -- C
+15.5 -- D
+9.0 -- E
+1 -- Over Votes
+0 -- Under Votes
+
+----- Choice 2 -----
+15 -- A
+25.0 -- B
+11.0 -- C
+8.0 -- D
+5 -- E
+1 -- Over Votes
+0 -- Under Votes
+
+----- Choice 3 -----
+14.5 -- A
+9.5 -- B
+11.0 -- C
+14.5 -- D
+12.5 -- E
+2 -- Over Votes
+1 -- Under Votes
+
+----- Choice 4 -----
+13.0 -- A
+12 -- B
+11.0 -- C
+16.5 -- D
+8.0 -- E
+1 -- Over Votes
+3.5 -- Under Votes
+
+----- Choice 5 -----
+6.5 -- A
+8.5 -- B
+13.5 -- C
+9.5 -- D
+27.0 -- E
+0 -- Over Votes
+0 -- Under Votes
+
+
+----- RCV Election Results -----
+
+----- Round 1 -----
+[15.0, 'In the Running'] -- A
+[10.0, 'In the Running'] -- B
+[15.5, 'In the Running'] -- C
+[15.5, 'In the Running'] -- D
+[9.0, 'Eliminated'] -- E
+
+----- Round 2 -----
+[17.0, 'In the Running'] -- A
+[15.0, 'Eliminated'] -- B
+[16.5, 'In the Running'] -- C
+[16.5, 'In the Running'] -- D
+[0, 'Eliminated'] -- E
+
+----- Round 3 -----
+[21.0, 'Eliminated'] -- A
+[0, 'Eliminated'] -- B
+[22.5, 'In the Running'] -- C
+[21.5, 'In the Running'] -- D
+[0, 'Eliminated'] -- E
+
+----- Round 4 -----
+[0, 'Eliminated'] -- A
+[0, 'Eliminated'] -- B
+[34.5, 'Winner'] -- C
+[30.5, 'In the Running'] -- D
+[0, 'Eliminated'] -- E
+
+

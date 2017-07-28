@@ -1,0 +1,70 @@
+1,Not Shared,A,B,C,D,E
+2,Not Shared,C,B,D,E,A
+3,Not Shared,D,A,B,C,E
+4,Not Shared,E,D,B,C,A
+5,Not Shared,C,A,D,E,B
+6,Not Shared,OVER,OVER,A,B,C
+7,Not Shared,A,E,UNDER,D,B
+8,Not Shared,B,A,OVER,D,C
+9,Not Shared,C,A,B,D,E
+10,Not Shared,D,A,B,C,E
+11,Not Shared,E,A,C,B,D
+12,Not Shared,D,B,C,A,E
+13,Not Shared,C,B,D,A,E
+14,Not Shared,B,C,D,UNDER,E
+15,Not Shared,A,C,B,UNDER,E
+16,Not Shared,D,B,OVER,UNDER,E
+17,Not Shared,E,B,D,A,C
+18,Not Shared,C,B,A,D,E
+19,Not Shared,D,C,A,B,E
+20,Not Shared,E,C,A,D,B
+21,Not Shared,A,B,E,C,D
+22,Not Shared,A,B,E,C,D
+23,Not Shared,A,E,D,B,C
+24,Not Shared,A,D,E,B,C
+25,Not Shared,C,D,E,A,B
+26,Not Shared,C,A,B,D,E
+27,Not Shared,C,A,B,D,E
+28,Not Shared,B,A,D,C,E
+29,Not Shared,D,B,E,A,C
+30,Not Shared,D,B,E,A,C
+31,Not Shared,D,C,A,B,E
+32,Not Shared,B,D,A,C,E
+33,Not Shared,A,C,D,B,E
+34,Not Shared,E,A,C,D,B
+35,Not Shared,D,B,A,E,C
+36,Not Shared,C,B,E,OVER,A
+37,Not Shared,E,B,C,A,D
+38,Not Shared,D,B,A,C,E
+39,Not Shared,B,E,A,D,C
+40,Not Shared,C,E,A,D,B
+41,Not Shared,A,E,B,D,C
+42,Not Shared,A,C,B,D,E
+43,Not Shared,A,C,D,B,E
+44,Not Shared,D,B,C,A,E
+45,Not Shared,D,A,C,B,E
+46,Not Shared,D,B,E,A,C
+47,Not Shared,C,A,D,B,E
+48,Not Shared,C,B,D,D,A
+49,Not Shared,C,A,E,D,B
+50,Not Shared,B,D,C,E,A
+51,Not Shared,B,D,A,E,C
+52,Not Shared,B,C,A,E,D
+53,Not Shared,C,A,D,E,B
+54,Not Shared,D,B,E,D,A
+55,Not Shared,E,B,C,A,D
+56,Not Shared,A,B,D,C,E
+57,Not Shared,E,B,A,C,D
+58,Not Shared,D,A,C,B,E
+59,Not Shared,C,D,A,B,E
+60,Not Shared,B,C,E,A,D
+61,Shared,B,D,E,A,C
+62,Shared,B,C,A,D,E
+63,Shared,A,B,D,E,C
+64,Shared,D,B,C,E,A
+65,Shared,E,B,D,A,C
+66,Shared,E,B,C,A,D
+67,Shared,A,B,D,C,E
+68,Shared,A,B,E,C,D
+69,Shared,C,D,E,A,B
+70,Shared,A,C,B,UNDER,D

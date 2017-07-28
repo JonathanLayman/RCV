@@ -1,0 +1,75 @@
+RCV Tabulation Procedures:
+
+Receiving ballot envelopes
+
+All ballot envelopes received will be stored in a sealed ballot box until the polls have closed and election staff are ready to proceed with determining the results of the election.
+
+Logging ballot envelopes in a poll book
+
+1.	Remove the ballot box seal and take out all of the ballot envelopes.
+2.	Two election staff will work together to look at the envelopes received, one will read the name on the envelope returned, the other will mark the voter as “ballot received” in the spreadsheet. 
+a.	Shared property envelopes should be separated 
+b.	Do not begin opening envelopes until all received ballots have been logged in the poll book
+Opening and labeling ballots
+
+1.	Two election staff will work together to open all of the single owner property envelopes, inspect the ballots, and place them in a pile. 
+2.	Once all of the single owner property envelopes have been opened and piled, the pile will be shuffled to randomize the ballots.
+3.	After the ballots have been randomized, label the ballots in ascending order in the top left corner with a highlighter or marker. 
+4.	Once all of the single owner ballots have been opened, randomized, and labeled, repeat the process with the shared owner property ballots. Make sure to use a different colored highlighter and place an “S” next to the ballot number to add extra clarity that it is a shared owner property ballot.
+
+Counting the ballots 
+
+1.	In the rcvresults.csv document, two election staff will work together to tally the votes cast.
+a.	One staff member should read the ballot, while the other staff member enters the information into the computer. 
+b.	After all of the ballots have been entered into the csv, the election staff will confirm the tally by having one read the tally from the computer while the other confirms on the ballots.  
+2.	Place data in the document in the following way:
+a.	Column A: The number of the vote
+b.	Column B: “Shared” or “Not Shared” to reflect if the property has one or two owners.
+c.	Column C: The first preference of the voter
+d.	Column D: The second preference of the voter
+e.	Column E: The third preference of the voter
+f.	Column F: The fourth preference of the voter
+g.	Column G: The fifth preference of the voter
+h.	If the voter Over-voted one of their preferences: type the word “OVER” in the corresponding cell. An over vote is determined if the voter wrote the same number more than once on their ballot.
+i.	If the voter Under-voted one of their preferences: type the word “UNDER” in the corresponding cell. An under vote is determined if the voter is missing any numbers from their ballot. For example: If the voter only ranked their top three choices, choice 4 and 5 are under votes.
+
+Tabulating the election
+
+1.	Election staff will confirm a hand tally of the election to determine the winner and perform any instant run off rounds. 
+2.	“Ranked Choice Voting" means a method of casting and tabulating votes that simulates the ballot counts that would occur if all voters participated in a series of runoff elections with lowest vote receiving candidate(s) eliminated after each round of counting. In elections using the Ranked Choice Voting method, voters may rank the candidates in order of preference.
+a.	“Advancing candidate" means a candidate who has not been eliminated.
+b.	“Continuing ballot" means a ballot that is not an exhausted ballot.
+c.	“Exhausted ballot" means a ballot on which there are no choices marked other than choices for eliminated candidates.
+3.	To determine which preference a ballot should be assigned, the election staff tabulating the election must follow this logic: 
+a.	Start at the highest preference of the ballot, and ask the two qualifying questions:
+i.	Is the preference voted correctly? (No under or over votes)
+ii.	Is the voter’s choice still in the race?
+b.	If the answer is no to one or both of the questions, go to the next highest preference and repeat until the answer to both questions is yes. 
+c.	If there are no preferences remaining, the ballot becomes “Exhausted” from the tally and the vote count for the round is adjusted. 
+4.	The initial round of counting shall be a count of the first valid choices marked on each ballot.  If any candidate receives a majority of the first choices, that candidate shall be declared the winner.
+5.	If no candidate receives a majority of first choices, there shall be a second round of counting.  The last-place candidate shall be eliminated, and all the continuing ballots shall be recounted.  Each continuing ballot shall be counted for that ballot’s highest ranked advancing candidate.
+6.	If no candidate receives a majority at the second round of counting, there shall be a third round of counting, continuing in the manner prescribed above.
+7.	The process of eliminating the last-place candidates and recounting all the continuing ballots shall continue until one candidate receives more than 50% of votes in a round.  The candidate who receives more than 50% of votes in a round shall be declared the winner.
+
+
+
+
+
+
+Confirm the winner of the hand tally of the election with the tabulation software
+
+1.	Make sure that the CSV file used to record all of the votes does not have a header row, and that all choices are spelled correctly.
+a.	All over votes must be recorded as “OVER”
+i.	This occurs if a voter write the same number for more than one option.
+b.	All under votes must be recorded as “UNDER”
+i.	This occurs if a choice number is not assigned on the ballot.
+2.	Make sure that the spelling of the candidate names on the lines of code 14-19 is spelled exactly the same as how those candidates are entered into the CSV. 
+a.	Everything is case sensitive!
+b.	You can edit the code by right clicking on the application and selecting open with notepad. (or any other text editor)
+c.	Make sure to save
+3.	Run the software by double clicking the rcvtabulation.py icon. 
+a.	A new text file will appear named “Election_Results_(Date and time).txt”
+b.	This text file will contain a summary of votes that outlines how many times a choice was voted in each preference column. It will also show how many ballots were counted, how many votes were cast (half votes for shared property owners), how many over and under votes there were.
+i.	The vote summary is used for reconciliation and audit purposes
+c.	After the vote summary will be the results of each round of the election and what happened each round. 
+4.	Compare the hand tally of the election to the software tally of the election. If the two results do not match, recount the election. 
