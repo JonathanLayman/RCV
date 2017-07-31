@@ -459,7 +459,7 @@ class RCVGUI:
         use_text.config(state='disabled')
 
 
-# Method to launch the program
+# Main program loop
 def main():
     root = Tk()
     rcv_gui = RCVGUI(root)
