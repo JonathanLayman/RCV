@@ -17,6 +17,8 @@ class Candidate:
         self.status = election.candidate_statuses[0]
 
     # Candidate Class Method used to calculate how many votes a candidate received in a round
+    # looks at the voter preference calculated in the Voter class and adds to self.votes
+    # if the preference is equal to the name of the candidate
     def calculateRound(self):
         for vote in self.election.voter_list:
             if vote.preference == self.name:
