@@ -1,2 +1,5 @@
 .idea
-*.rcv
+Saves/*
+!Saves/.gitkeep
+Exports/*
+!Exports/.gitkeep
