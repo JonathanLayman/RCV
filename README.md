@@ -2,13 +2,17 @@
 This software is used to tabulate a rank choice election. 
 It takes a CSV with the raw tally of the election and calculates a Summary of Votes and the Instant Run Off election results.
 
-# Installation
+## Installation
 1. Install python 3.x
 2. Clone this respository
 3. Run RCVsoftware.py
 4. You can load the included results.csv to see how the software works, or load your own csv in the same format as results.csv
 
-# How to Use:
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.MD](LICENSE.MD) file for details
+
+## How to Use:
 This software is used to determine the winner of a rank choice voting election. 
 
 
